@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
-    
+    <title>Minesweeper💣 </title>
+
 </head>
-<body onload="init()" oncontextmenu="return false"> 
-        <div class="input">
-                <input type="radio" name="numbers" value="0" onclick="ChangeBoard(`${value}`)"  checked class="input"> Begginer<br>
-                <input type="radio" name="numbers" value="1" onclick="ChangeBoard(`${value}`)"  class="input"> Medium<br>
-                <input type="radio" name="numbers" value="2" onclick="ChangeBoard(`${value}`)" class="input"> Expert
-            </div> 
-        <table class="board-container" border="10px" cellpadding="10px"> 
-                <tbody>
-                </tbody>
-            </table>  
-
-
+<h2>Minesweeper💣</h2>
+<body onload="init()" oncontextmenu="return false">
+    <div class="input">
+        <input type="radio" name="numbers" value="0" onclick="ChangeBoard(`${value}`)" checked class="input">
+        Begginer<br>
+        <input type="radio" name="numbers" value="1" onclick="ChangeBoard(`${value}`)" class="input"> Medium<br>
+        <input type="radio" name="numbers" value="2" onclick="ChangeBoard(`${value}`)" class="input"> Expert
+    </div>
+    <table class="board-container" border="5px" >
+        <tbody>
+        </tbody>
+    </table>
+    <div class="game-over hide">
+        <span> </span> <br>
+        <button onclick="restart()">😊</button>
+    </div>
+    <div class="timer">Time: </div>
+    <div >
+        <span>Hints :</span>
+        <button class="hint" onclick="activatHint()">💡💡💡</button>
+        
+    </div>
+    <div >
+            <span class="lives">Lives : 😊😊😊</span>
+            
+            
+        </div>
 
     <script src="js/main.js"></script>
-    
+
 </body>
+
 </html>
-
-
-

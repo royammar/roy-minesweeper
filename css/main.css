@@ -1,39 +1,55 @@
 
 body {
-
-    margin: auto;
-    background: black;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,53,121,0.6619690112373074) 35%);
     text-align: center;
-    box-sizing: border-box;
 }
 
 
 
 table{
-   
+    margin-left: auto;
+    margin-right: auto ;
     background: gray;
-    width: 30px;
-    height: 30px;
     text-align: center; 
     box-sizing: border-box;
-    font-size:	10px;
+    font-size:	15px;
+    border-radius: 3px;
 }
 
+
+
 td {
-    
+    width: 30px;
+    height: 30px;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
+    border-radius: 3px;
+    
 }
+
 
 
 
 .input {
-color: white;
+color: black;
     text-align: center;
     margin-left: auto;
     margin-right: auto ;
     margin: auto;
 
 }
+
+.timer{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    transition: .5s;
+    margin-left: auto;
+    margin-right: auto ;
+    
+}
+
 
