@@ -1,0 +1,39 @@
+
+body {
+
+    margin: auto;
+    background: black;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+table{
+   
+    background: gray;
+    width: 30px;
+    height: 30px;
+    text-align: center; 
+    box-sizing: border-box;
+    font-size:	10px;
+}
+
+td {
+    
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+.input {
+color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto ;
+    margin: auto;
+
+}
+
