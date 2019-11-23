@@ -11,8 +11,8 @@
 </head>
 <h2>Minesweeper💣</h2>
 <body onload="init()" oncontextmenu="return false">
-    <div class="input">
-        <input type="radio" name="numbers" value="0" onclick="ChangeBoard(`${value}`)" checked class="input">
+    <div >
+        <input type="radio" name="numbers" value="0" onclick="ChangeBoard(`${value}`)" checked class="input" id="default">
         Begginer<br>
         <input type="radio" name="numbers" value="1" onclick="ChangeBoard(`${value}`)" class="input"> Medium<br>
         <input type="radio" name="numbers" value="2" onclick="ChangeBoard(`${value}`)" class="input"> Expert
@@ -29,12 +29,17 @@
     <div >
         <span>Hints :</span>
         <button class="hint" onclick="activatHint()">💡💡💡</button>
-        
+        <span>Safe Click :</span>
+        <button class="Safe" onclick="SafeCells()">🦺🦺🦺</button>
     </div>
     <div >
             <span class="lives">Lives : 😊😊😊</span>
             
-            
+        </div>
+        <div class="bestScroe">
+            <ul id=4></ul>
+            <ul id=8></ul>
+            <ul id=12></ul>
         </div>
 
     <script src="js/main.js"></script>
